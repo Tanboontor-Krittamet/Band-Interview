@@ -42,7 +42,5 @@ if response.status_code == 200:
           break
 
         time.sleep(3)
-    else:
-      print("Error: Transaction hash not found in response.")
 else:
     print(f"Error sending data: {response.text}")
