@@ -11,7 +11,7 @@ symbol_input = input("Input Sympol: ")
 price_input = int(input("Input Price: "))
 
 data = {
-    "symbol": "Apple",
+    "symbol": symbol_input,
     "price": price_input,
     "timestamp": current_time_seconds, 
 }
@@ -42,7 +42,5 @@ if response.status_code == 200:
           break
 
         time.sleep(3)
-    else:
-      print("Error: Transaction hash not found in response.")
 else:
     print(f"Error sending data: {response.text}")
