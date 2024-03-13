@@ -1,6 +1,7 @@
 def boss_baby():
   print("---------- Boss Baby's Revenge ----------")
 
+  # Example
   arr = ["SRSSRRR", "RSSRR", "SSSRRRRS", "SSRR", "SRRSSR"]
 
   for string in arr:
